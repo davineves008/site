@@ -68,3 +68,58 @@ footer p {
     width: 100%;
     margin-bottom: 20px;
 }
+.videos-container {
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    width: 80%;
+    margin-left: 10%;
+}
+
+.linha1,
+.coluna1 {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 25px; */
+}
+.coluna1{
+    background-color:  blue;
+    width: 100%;
+}
+
+.linha1  {
+    background-color: yellow;
+    margin-bottom: 25px;
+    width: 100%;
+    
+}
+
+.video-card-linha {
+    width: 48%;
+    background: #1f1f1f;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    transition: transform 0.3s;
+}
+
+.video-card:hover {
+    transform: translateY(-5px);
+}
+
+/*.video-card iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+}*/
+
+.video-card p {
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* .linha1 iframe{
+   
+   height: 400px;
+} */
