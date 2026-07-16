@@ -1,37 +1,37 @@
-*{
+* {
     margin: 0;
-     font-family: "Arsenal", sans-serif;
-        
+    font-family: "Arsenal", sans-serif;
+
 
 
 }
 
-nav{
+nav {
     height: 80px;
     background-color: #112244;
     display: flex;
     justify-content: center;
     align-items: center;
- 
-    
+
+
 
 
 }
 
-nav ul li a{
+nav ul li a {
 
     color: white;
     text-decoration: none;
     font-size: 20px;
-   
-   
-    
+
+
+
 
 }
 
-nav ul li{
- list-style: none;
-  
+nav ul li {
+    list-style: none;
+
 }
 
 
@@ -40,70 +40,108 @@ nav ul {
     gap: 20px;
 }
 
-#atual{
+#atual {
     color: coral;
 }
-footer div{
+
+footer div {
     display: flex;
     gap: 20px;
+    justify-content: center;
     margin-bottom: 20px;
-    
+
 
 }
-footer img{
+
+footer img {
     width: 40px;
 
 }
+
 footer {
     text-align: center;
     justify-items: center;
 }
+
 footer p {
-    padding-bottom: 20px
-    ;
+    padding-bottom: 20px;
 }
-.bolinha{
+
+.bolinha {
     height: 10px;
     background-color: coral;
     width: 100%;
     margin-bottom: 20px;
 }
-.fila1{
-    
+
+.fila1,
+.fila2, .fila3  {
+
     width: 80%;
     margin-left: 10%;
     margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
 }
-.fila1 figure img{
+
+.noticia1
+ {
+    width: 100%;
+
+    
+}
+.noticia2, .noticia3
+ {
+    width: 48%;
+  
+}
+
+.noticia4 ,.noticia5, .noticia6
+ {
+    width: 32%;
+
+    
+}
+
+
+.fila1 figure img,
+.fila2 figure img, .fila3 figure img {
     width: 100%;
     border-radius: 30px;
 }
-.fila1 figure figcaption{
+
+.fila1 figure figcaption, .fila2 figure figcaption, .fila3 figure figcaption {
     text-align: center;
     margin-bottom: 2%;
 }
-.fila1 h3 {
+
+.fila1 h3 ,.fila2 h3, .fila3 h3 {
     color: coral;
     margin-bottom: 1%;
 }
-.fila1 p {
+
+.fila1 p, .fila2 p {
     font-size: 16px;
 }
-.button{
+
+.button {
     width: 100%;
     background-color: #112244;
     margin-top: 1%;
     margin-bottom: 3%;
     border-radius: 8px;
-    padding-bottom: 16px;
+    padding-bottom: 8px;
     padding-top: 8px;
-   
-}.button a{
+
+}
+
+.button a {
     text-decoration: none;
     color: white;
-   
+
 }
-.button p{
+
+.button p {
     font-size: 20px;
     text-align: center;
 }
